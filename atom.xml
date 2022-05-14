@@ -8,7 +8,22 @@
     
       
       <item>
-        <title>Array(1)</title>
+        <title>Array(2)</title>
+        
+          <description>&lt;h1 id=&quot;고차함수-조작내장-메서드&quot;&gt;고차함수 조작(내장 메서드)&lt;/h1&gt;
+
+</description>
+        
+        <pubDate>Fri, 13 May 2022 00:00:00 +0900</pubDate>
+        <link>
+        https://jongjongpill.github.io/Array(2)</link>
+        <guid isPermaLink="true">https://jongjongpill.github.io/Array(2)</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Array(1)-기본 변경 메서드</title>
         
           <description>&lt;h1 id=&quot;배열&quot;&gt;배열&lt;/h1&gt;
 &lt;hr /&gt;
