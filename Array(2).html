@@ -203,6 +203,29 @@ into the {body} of the default.hbs template -->
 
 <p>만약 Map 생성자 함수에 인수(요소)를 전달하지 않는다면 빈 Map객체가 생성된다.</p>
 
+<hr />
+<h2 id="filter">.filter()</h2>
+<p>자바스크립트의 특정 조건에 맞는 배열을 반환한다.</p>
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">const</span> <span class="nx">arr</span> <span class="o">=</span> <span class="p">[</span><span class="dl">'</span><span class="s1">html</span><span class="dl">'</span><span class="p">,</span> <span class="dl">'</span><span class="s1">css</span><span class="dl">'</span><span class="p">,</span> <span class="dl">'</span><span class="s1">js</span><span class="dl">'</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">];</span>
+
+<span class="c1">//숫자만 남겨보기</span>
+<span class="kd">const</span> <span class="nx">newArr</span> <span class="o">=</span> <span class="nx">arr</span><span class="p">.</span><span class="nx">filter</span><span class="p">(</span><span class="kd">function</span><span class="p">(</span><span class="nx">element</span><span class="p">)</span> <span class="p">{</span><span class="c1">//element에 arr의 요소들이 하나씩 들어감</span>
+  <span class="k">if</span><span class="p">(</span><span class="nx">element</span> <span class="o">===</span> <span class="dl">'</span><span class="s1">number</span><span class="dl">'</span><span class="p">){</span>
+    <span class="k">return</span> <span class="nx">element</span><span class="p">;</span>
+  <span class="p">}</span>
+<span class="p">})</span>
+<span class="c1">// newArr -&gt; [0, 1, 2]; </span>
+
+<span class="c1">//문자만 남겨보기</span>
+<span class="kd">const</span> <span class="nx">newArr2</span> <span class="o">=</span> <span class="nx">arr</span><span class="p">.</span><span class="nx">filter</span><span class="p">(</span><span class="kd">function</span><span class="p">(</span><span class="nx">element</span><span class="p">){</span>
+  <span class="k">if</span><span class="p">(</span><span class="nx">element</span> <span class="o">===</span> <span class="dl">'</span><span class="s1">string</span><span class="dl">'</span><span class="p">){</span>
+    <span class="k">return</span> <span class="nx">element</span><span class="p">;</span>
+  <span class="p">}</span>
+<span class="p">})</span>
+<span class="c1">// newArr2 -&gt; ['html', 'css', 'js'];</span>
+</code></pre></div></div>
+
+
                 </div>
             </section>
 
