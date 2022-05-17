@@ -8,6 +8,22 @@
     
       
       <item>
+        <title>String</title>
+        
+          <description>&lt;h1 id=&quot;string&quot;&gt;STRING&lt;/h1&gt;
+&lt;hr /&gt;
+
+</description>
+        
+        <pubDate>Tue, 17 May 2022 00:00:00 +0900</pubDate>
+        <link>
+        https://jongjongpill.github.io/String(1)</link>
+        <guid isPermaLink="true">https://jongjongpill.github.io/String(1)</guid>
+      </item>
+      
+    
+      
+      <item>
         <title>Array(2)</title>
         
           <description>&lt;h1 id=&quot;고차함수-조작내장-메서드&quot;&gt;고차함수 조작(내장 메서드)&lt;/h1&gt;
