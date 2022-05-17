@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="https://jongjongpill.github.io/tag/javascript/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://jongjongpill.github.io/" rel="alternate" type="text/html" />
-  <updated>2022-05-17T21:20:18+09:00</updated>
+  <updated>2022-05-17T22:47:56+09:00</updated>
   <id>https://jongjongpill.github.io/tag/javascript/feed.xml</id>
 
   
@@ -32,8 +32,8 @@
 
   
     <entry>
-      <title type="html">String</title>
-      <link href="https://jongjongpill.github.io/String(1)" rel="alternate" type="text/html" title="String" />
+      <title type="html">String(1)</title>
+      <link href="https://jongjongpill.github.io/String(1)" rel="alternate" type="text/html" title="String(1)" />
       <published>2022-05-17T00:00:00+09:00</published>
       <updated>2022-05-17T00:00:00+09:00</updated>
       <id>https://jongjongpill.github.io/String(1)</id>
@@ -118,6 +118,112 @@ indexOf와 마찬가지로 2번째 인수로 검색을 시작할 인덱스를 �
 
       
         <summary type="html">STRING</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">String(2)</title>
+      <link href="https://jongjongpill.github.io/String(2)" rel="alternate" type="text/html" title="String(2)" />
+      <published>2022-05-17T00:00:00+09:00</published>
+      <updated>2022-05-17T00:00:00+09:00</updated>
+      <id>https://jongjongpill.github.io/String(2)</id>
+      <content type="html" xml:base="https://jongjongpill.github.io/String(2)">&lt;h2 id=&quot;substring&quot;&gt;.substring()&lt;/h2&gt;
+&lt;p&gt;이 메서드는 2개의 인수를 전달받는데 첫번째 인수로 전달받은 인덱스에 위치하는 문자부터 두번째 인덱스에 위치하는 문자의 바로 전까지의 부분 문자열을 반환한다.&lt;/p&gt;
+
+&lt;p&gt;두번째 인수는 생략할 수 있으며 생략하게 될경우 첫번째 인수부터 마지막 문자까지 반환할 수 있다.&lt;/p&gt;
+
+&lt;p&gt;이 메서드는 두번째 메서드가 첫번째보다 커야 정상이지만 만약 첫번째 인수가 더 크다면 두 인수는 교환된다.&lt;/p&gt;
+
+&lt;p&gt;인수가 0 또는 NaN이라면 0으로 취급된다.
+또한 인수가 문자열의 길이보다 크다면 문자열의 길이로 취급된다.&lt;/p&gt;
+&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;str&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&apos;&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;Hello World&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;nx&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;substring&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;        &lt;span class=&quot;c1&quot;&gt;// -&amp;gt; ell&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;// 인수를 하나만 받았을 때&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;substring&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;           &lt;span class=&quot;c1&quot;&gt;// -&amp;gt; ello World&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;// 두번째 인수가 더 클 때&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;substring&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;        &lt;span class=&quot;c1&quot;&gt;// -&amp;gt; ell&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;// 인수가 0보다 작을 때&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;substring&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;          &lt;span class=&quot;c1&quot;&gt;// -&amp;gt; Hello World&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;// 문자열의 길이보다 클 때&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;substring&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;      &lt;span class=&quot;c1&quot;&gt;// -&amp;gt; ello World&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;slice&quot;&gt;.slice()&lt;/h2&gt;
+&lt;p&gt;이 메서드는 substring과 동일하게 동작하는데&lt;br /&gt;한가지 다른점은 &lt;strong&gt;음수인 인수를 전달할수 있다는 것&lt;/strong&gt;이다. 만약 음수를 인수로 전달하게 된다면 가장 뒤에서부터 인수만큼의 문자열을 잘라내어 반환한다.&lt;/p&gt;
+&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nx&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;slice&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;              &lt;span class=&quot;c1&quot;&gt;// -&amp;gt; World &lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;h2 id=&quot;touppercase-tolowercase&quot;&gt;.toUpperCase() .toLowerCase()&lt;/h2&gt;
+&lt;p&gt;Upper은 대상을 모두 &lt;strong&gt;대문자&lt;/strong&gt;로&lt;br /&gt;
+Lower은 대상을 모두 &lt;strong&gt;소문자&lt;/strong&gt;로 변경해준다.&lt;/p&gt;
+
+&lt;h2 id=&quot;trim&quot;&gt;.trim()&lt;/h2&gt;
+&lt;p&gt;대상의 문자열의 공백을 모두 제거하여 반환해준다.&lt;/p&gt;
+
+&lt;p&gt;또한 &lt;strong&gt;.trimStart()&lt;/strong&gt; 와 &lt;strong&gt;.trimEnd()&lt;/strong&gt; 라는 메서드도 존재하는데 왠지 알것같은 그런느낌 그대로이다.&lt;/p&gt;
+&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;str&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&apos;&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;   what   &lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;nx&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;trim&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;           &lt;span class=&quot;c1&quot;&gt;// -&amp;gt; &apos;what&apos;&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;trimStart&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;      &lt;span class=&quot;c1&quot;&gt;// -&amp;gt; &apos;what   &apos;&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;trimEnd&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;        &lt;span class=&quot;c1&quot;&gt;// -&amp;gt; &apos;   what&apos;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;h2 id=&quot;repeat&quot;&gt;.repeat()&lt;/h2&gt;
+&lt;p&gt;ES6에서 도입된 메서드로 인수로 전달받은 정수만큼 대상 문자열을 반복해 새로운 문자열로 반환한다.&lt;br /&gt;
+만약 인수로 0을 받는다면 빈 문자열을 반환한다. 또한 인수를 생략하면 인수는 0으로 설정된다.&lt;br /&gt;
+인수가 소수점이라면 내림으로 적용된다.&lt;/p&gt;
+&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;str&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&apos;&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;abc&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;nx&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;repeat&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;          &lt;span class=&quot;c1&quot;&gt;// -&amp;gt; &apos;&apos;&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;repeat&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;         &lt;span class=&quot;c1&quot;&gt;// -&amp;gt; &apos;&apos;&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;repeat&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;         &lt;span class=&quot;c1&quot;&gt;// -&amp;gt; &apos;abc&apos;&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;repeat&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;         &lt;span class=&quot;c1&quot;&gt;// -&amp;gt; &apos;abcabc&apos;&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;repeat&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;2.5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;       &lt;span class=&quot;c1&quot;&gt;// -&amp;gt; &apos;abcabc&apos;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;h2 id=&quot;replace&quot;&gt;.replace()&lt;/h2&gt;
+&lt;p&gt;첫번째 인수로 전달받은 문자열 또는 정규표현식을 검색하여 두번째 인수로 전달한 문자열로 치환한 문자열을 반환한다.&lt;/p&gt;
+&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;str&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&apos;&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;Hello World&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;nx&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;replace&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&apos;&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;World&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&apos;&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;jong&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;     &lt;span class=&quot;c1&quot;&gt;// -&amp;gt; &apos;Hello jong&apos;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;split&quot;&gt;.split()&lt;/h2&gt;
+&lt;p&gt;인수로 전달받은 문자열 또는 정규표현식을 검색하여 문자열을 구분(나눈) 후 분리된 문자열로 이루어진 배열을 반환해준다. &lt;br /&gt;&lt;em&gt;인수를 두개를 가질 수 있다 만약 2개를 갖는다면 두번째 인수는 배열의 길이를 지정해준다.&lt;/em&gt;&lt;/p&gt;
+&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;str&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&apos;&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;My name is jongpill&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;nx&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;split&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&apos;&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt; &lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;         &lt;span class=&quot;c1&quot;&gt;// -&amp;gt; [&quot;My&quot;, &quot;name&quot;, &quot;is&quot;, &quot;jongpill&quot;]&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;split&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&apos;&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;          &lt;span class=&quot;c1&quot;&gt;// -&amp;gt; [&quot;M&quot; ~~~..~.. &quot;l&quot;]&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;split&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;            &lt;span class=&quot;c1&quot;&gt;// -&amp;gt; [&quot;My name is jongpill&quot;]&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;split&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&apos;&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt; &lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;      &lt;span class=&quot;c1&quot;&gt;// -&amp;gt; [&quot;My&quot;, &quot;name&quot;, &quot;is&quot;]&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;이 메서드는 배열을 반환해주기때문에 배열의 베서드와 함께 사용해도 문제없다.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>JongPil</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="javascript" />
+      
+
+      
+        <summary type="html">.substring() 이 메서드는 2개의 인수를 전달받는데 첫번째 인수로 전달받은 인덱스에 위치하는 문자부터 두번째 인덱스에 위치하는 문자의 바로 전까지의 부분 문자열을 반환한다.</summary>
       
 
       
