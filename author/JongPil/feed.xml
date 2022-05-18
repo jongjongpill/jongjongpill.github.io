@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="https://jongjongpill.github.io/author/JongPil/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://jongjongpill.github.io/" rel="alternate" type="text/html" />
-  <updated>2022-05-18T17:29:16+09:00</updated>
+  <updated>2022-05-18T20:09:22+09:00</updated>
   <id>https://jongjongpill.github.io/author/JongPil/feed.xml</id>
 
   
@@ -100,10 +100,19 @@
 &lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;title&amp;gt;&lt;/span&gt;Document&lt;span class=&quot;nt&quot;&gt;&amp;lt;/title&amp;gt;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;p&gt;이 title은 뜻 그대로 이 문서의 제목이다. 이 제목은 
-&lt;img src=&quot;/assets/images/html-metadata-1.JPG&quot; alt=&quot;문서이름&quot; /&gt;
+&lt;img src=&quot;/assets/images/html-metadata-1.jpg&quot; /&gt;
 위의 “Daum, Naver, GitHub”와 같이 제목으로 표시된다.&lt;br /&gt;
 이 title은 “head”태그 안에 딱 한번만 들어갈 수 있으며 문자열만 입력할 수 있다.&lt;br /&gt;
-만약 페이지를 즐겨찾기나 북마크를 해도 title에 작성된 제목으로 저장된다.&lt;/p&gt;</content>
+만약 페이지를 즐겨찾기나 북마크를 해도 title에 작성된 제목으로 저장된다.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;meta&quot;&gt;meta&lt;/h2&gt;
+&lt;p&gt;meta태그는 빈요소로 내용을 가질 수 없음으로 속성에 정보를 나열해야한다.
+meta태그 안에 들어갈 수 있는 속성들을 살펴보자&lt;br /&gt;
+-&lt;strong&gt;name&lt;/strong&gt; name은 content라는 특성과 함께 짝을 이뤄 사용해야하며 name은 이름, content는 값을 담당한다. &lt;a href=&quot;https://developer.mozilla.org/ko/docs/Web/HTML/Element/meta/name&quot;&gt;👉표준메타데이터 이름&lt;/a&gt; 앞의 링크에는 표준으로 name에 들어갈수 있는 이름을 설명하여 주지만 모두 사용해야만 하는 것은 아니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;charset&lt;/strong&gt; - 페이지의 문자 인코딩을 선언해준다. 이 특성은 무조건 &lt;em&gt;ASCII표현&lt;/em&gt; 이어야한다.&lt;br /&gt;ex) utf-8 : 한국어&lt;/p&gt;</content>
 
       
       

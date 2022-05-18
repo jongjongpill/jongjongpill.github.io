@@ -213,10 +213,20 @@ into the {body} of the default.hbs template -->
 <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;title&gt;</span>Document<span class="nt">&lt;/title&gt;</span>
 </code></pre></div></div>
 <p>이 title은 뜻 그대로 이 문서의 제목이다. 이 제목은 
-<img src="/assets/images/html-metadata-1.JPG" alt="문서이름" />
+<img src="/assets/images/html-metadata-1.jpg" />
 위의 “Daum, Naver, GitHub”와 같이 제목으로 표시된다.<br />
 이 title은 “head”태그 안에 딱 한번만 들어갈 수 있으며 문자열만 입력할 수 있다.<br />
 만약 페이지를 즐겨찾기나 북마크를 해도 title에 작성된 제목으로 저장된다.</p>
+
+<hr />
+
+<h2 id="meta">meta</h2>
+<p>meta태그는 빈요소로 내용을 가질 수 없음으로 속성에 정보를 나열해야한다.
+meta태그 안에 들어갈 수 있는 속성들을 살펴보자<br />
+-<strong>name</strong> name은 content라는 특성과 함께 짝을 이뤄 사용해야하며 name은 이름, content는 값을 담당한다. <a href="https://developer.mozilla.org/ko/docs/Web/HTML/Element/meta/name">👉표준메타데이터 이름</a> 앞의 링크에는 표준으로 name에 들어갈수 있는 이름을 설명하여 주지만 모두 사용해야만 하는 것은 아니다.</p>
+
+<p><strong>charset</strong> - 페이지의 문자 인코딩을 선언해준다. 이 특성은 무조건 <em>ASCII표현</em> 이어야한다.<br />ex) utf-8 : 한국어</p>
+
 
                 </div>
             </section>
