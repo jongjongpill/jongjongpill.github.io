@@ -8,6 +8,55 @@
     
       
       <item>
+        <title>META DATA</title>
+        
+          <description>&lt;h1 id=&quot;meta-data&quot;&gt;META DATA&lt;/h1&gt;
+&lt;hr /&gt;
+&lt;p&gt;우리는 HTML문서에서 “body”에 들어가는 내용은 우리가 보는 문서에 나타나는 것이며&lt;br /&gt;
+그리고 “head”에 들어가는 내용은 우리 눈에는 보이지 않는 브라우저의 정보이다.&lt;br /&gt;&lt;br /&gt;
+처음 html 문서를 시작할때 &lt;strong&gt;!&lt;/strong&gt; 를 입력하게 된다면&lt;/p&gt;
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;cp&quot;&gt;&amp;lt;!DOCTYPE html&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;html&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;lang=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;en&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;head&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;charset=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;UTF-8&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;http-equiv=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;X-UA-Compatible&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;content=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;IE=edge&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;viewport&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;content=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;width=device-width, initial-scale=1.0&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;title&amp;gt;&lt;/span&gt;Document&lt;span class=&quot;nt&quot;&gt;&amp;lt;/title&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/head&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;body&amp;gt;&lt;/span&gt;
+  
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/body&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/html&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;이렇게 html문서의 기본틀을 볼 수 있다.
+이때 “head”에 들어가는 &lt;strong&gt;meta&lt;/strong&gt; 혹은 &lt;strong&gt;title&lt;/strong&gt; 과 같은 눈에 보이지 않는 정보들을 “META DATA”라고 부른다.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Wed, 18 May 2022 00:00:00 +0900</pubDate>
+        <link>
+        https://jongjongpill.github.io/metadata</link>
+        <guid isPermaLink="true">https://jongjongpill.github.io/metadata</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Flexbox</title>
+        
+          <description>&lt;h1 id=&quot;flexbox&quot;&gt;Flexbox&lt;/h1&gt;
+
+</description>
+        
+        <pubDate>Wed, 18 May 2022 00:00:00 +0900</pubDate>
+        <link>
+        https://jongjongpill.github.io/Flexbox</link>
+        <guid isPermaLink="true">https://jongjongpill.github.io/Flexbox</guid>
+      </item>
+      
+    
+      
+      <item>
         <title>String(2)</title>
         
           <description>&lt;h2 id=&quot;substring&quot;&gt;.substring()&lt;/h2&gt;

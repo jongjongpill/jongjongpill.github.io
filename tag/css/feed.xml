@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom" >
+  <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
+  <link href="https://jongjongpill.github.io/tag/css/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="https://jongjongpill.github.io/" rel="alternate" type="text/html" />
+  <updated>2022-05-18T17:29:16+09:00</updated>
+  <id>https://jongjongpill.github.io/tag/css/feed.xml</id>
+
+  
+  
+  
+
+  
+    <title type="html">공부해보는곳 | </title>
+  
+
+  
+    <subtitle>끄적끄적..</subtitle>
+  
+
+  
+
+  
+    
+      
+    
+  
+
+  
+  
+
+  
+    <entry>
+      <title type="html">Flexbox</title>
+      <link href="https://jongjongpill.github.io/Flexbox" rel="alternate" type="text/html" title="Flexbox" />
+      <published>2022-05-18T00:00:00+09:00</published>
+      <updated>2022-05-18T00:00:00+09:00</updated>
+      <id>https://jongjongpill.github.io/Flexbox</id>
+      <content type="html" xml:base="https://jongjongpill.github.io/Flexbox">&lt;h1 id=&quot;flexbox&quot;&gt;Flexbox&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&quot;../../assets/images/&quot; alt=&quot;flexbox-1&quot; /&gt;&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>JongPil</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="css" />
+      
+
+      
+        <summary type="html">Flexbox</summary>
+      
+
+      
+      
+    </entry>
+  
+</feed>
