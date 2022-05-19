@@ -8,7 +8,25 @@
     
       
       <item>
-        <title>META DATA</title>
+        <title>가장 중요할수도있는 Function(1)</title>
+        
+          <description>&lt;h1 id=&quot;function&quot;&gt;Function&lt;/h1&gt;
+&lt;hr /&gt;
+&lt;h2 id=&quot;함수-선언식과-함수표현식&quot;&gt;함수 선언식과 함수표현식&lt;/h2&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Thu, 19 May 2022 00:00:00 +0900</pubDate>
+        <link>
+        https://jongjongpill.github.io/Function</link>
+        <guid isPermaLink="true">https://jongjongpill.github.io/Function</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>왠지 알고싶지 않은 META DATA</title>
         
           <description>&lt;h1 id=&quot;meta-data&quot;&gt;META DATA&lt;/h1&gt;
 &lt;hr /&gt;
@@ -57,7 +75,7 @@
     
       
       <item>
-        <title>String(2)</title>
+        <title>그렇게 중요해보이지 않는 String(2)</title>
         
           <description>&lt;h2 id=&quot;substring&quot;&gt;.substring()&lt;/h2&gt;
 &lt;p&gt;이 메서드는 2개의 인수를 전달받는데 첫번째 인수로 전달받은 인덱스에 위치하는 문자부터 두번째 인덱스에 위치하는 문자의 바로 전까지의 부분 문자열을 반환한다.&lt;/p&gt;
@@ -73,7 +91,7 @@
     
       
       <item>
-        <title>String(1)</title>
+        <title>그렇게 중요해보이지 않는 String(1)</title>
         
           <description>&lt;h1 id=&quot;string&quot;&gt;STRING&lt;/h1&gt;
 &lt;hr /&gt;
