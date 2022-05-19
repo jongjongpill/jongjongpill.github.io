@@ -171,7 +171,25 @@ into the {body} of the default.hbs template -->
     
     <li><span class="post-date">
         
-        2022-05-19 </span><a href="./Function" target="_blank">가장 중요할수도있는 Function(1)</a></li>
+        2022-05-20 </span><a href="./form" target="_blank">쓸 때마다 까먹는 FORM</a></li>
+
+    
+        
+        
+        
+    
+    <li><span class="post-date">
+        
+        2022-05-19 </span><a href="./Function(2)" target="_blank">가장 중요할수도있는 Function(2)</a></li>
+
+    
+        
+        
+        
+    
+    <li><span class="post-date">
+        
+        2022-05-19 </span><a href="./Function(1)" target="_blank">가장 중요할수도있는 Function(1)</a></li>
 
     
         
@@ -285,18 +303,17 @@ $(function() {
 
 
     <!-- Add Google Analytics  -->
-    <!-- Google Analytics Tracking code -->
- <script>
+    <!-- Google Analytics -->
+<script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','g');
-
-  g('create', 'G-KDP8MY0L2G', 'auto');
-  g('send', 'pageview');
-
- </script>
-
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  
+  ga('create', 'GA_MEASUREMENT_ID', 'auto');
+  ga('send', 'pageview');
+  </script>
+  <!-- End Google Analytics -->
 
     <!-- The #block helper will pull in data from the #contentFor other template files. In this case, there's some JavaScript which we only want to use in post.hbs, but it needs to be included down here, after jQuery has already loaded. -->
     

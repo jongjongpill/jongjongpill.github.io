@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="https://jongjongpill.github.io/tag/html/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://jongjongpill.github.io/" rel="alternate" type="text/html" />
-  <updated>2022-05-19T21:59:49+09:00</updated>
+  <updated>2022-05-20T00:14:28+09:00</updated>
   <id>https://jongjongpill.github.io/tag/html/feed.xml</id>
 
   
@@ -30,6 +30,40 @@
   
   
 
+  
+    <entry>
+      <title type="html">쓸 때마다 까먹는 FORM</title>
+      <link href="https://jongjongpill.github.io/form" rel="alternate" type="text/html" title="쓸 때마다 까먹는 FORM" />
+      <published>2022-05-20T00:00:00+09:00</published>
+      <updated>2022-05-20T00:00:00+09:00</updated>
+      <id>https://jongjongpill.github.io/form</id>
+      <content type="html" xml:base="https://jongjongpill.github.io/form"></content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>JongPil</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="html" />
+      
+
+      
+        <summary type="html"></summary>
+      
+
+      
+      
+    </entry>
   
     <entry>
       <title type="html">왠지 알고싶지 않은 META DATA</title>

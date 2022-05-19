@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="https://jongjongpill.github.io/author/JongPil/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://jongjongpill.github.io/" rel="alternate" type="text/html" />
-  <updated>2022-05-19T21:59:49+09:00</updated>
+  <updated>2022-05-20T00:14:28+09:00</updated>
   <id>https://jongjongpill.github.io/author/JongPil/feed.xml</id>
 
   
@@ -32,12 +32,46 @@
 
   
     <entry>
+      <title type="html">쓸 때마다 까먹는 FORM</title>
+      <link href="https://jongjongpill.github.io/form" rel="alternate" type="text/html" title="쓸 때마다 까먹는 FORM" />
+      <published>2022-05-20T00:00:00+09:00</published>
+      <updated>2022-05-20T00:00:00+09:00</updated>
+      <id>https://jongjongpill.github.io/form</id>
+      <content type="html" xml:base="https://jongjongpill.github.io/form"></content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>JongPil</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="html" />
+      
+
+      
+        <summary type="html"></summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
       <title type="html">가장 중요할수도있는 Function(1)</title>
-      <link href="https://jongjongpill.github.io/Function" rel="alternate" type="text/html" title="가장 중요할수도있는 Function(1)" />
+      <link href="https://jongjongpill.github.io/Function(1)" rel="alternate" type="text/html" title="가장 중요할수도있는 Function(1)" />
       <published>2022-05-19T00:00:00+09:00</published>
       <updated>2022-05-19T00:00:00+09:00</updated>
-      <id>https://jongjongpill.github.io/Function</id>
-      <content type="html" xml:base="https://jongjongpill.github.io/Function">&lt;h1 id=&quot;function&quot;&gt;Function&lt;/h1&gt;
+      <id>https://jongjongpill.github.io/Function(1)</id>
+      <content type="html" xml:base="https://jongjongpill.github.io/Function(1)">&lt;h1 id=&quot;function&quot;&gt;Function&lt;/h1&gt;
 &lt;hr /&gt;
 &lt;h2 id=&quot;함수-선언식과-함수표현식&quot;&gt;함수 선언식과 함수표현식&lt;/h2&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
@@ -175,14 +209,12 @@
     </entry>
   
     <entry>
-      <title type="html">Flexbox</title>
-      <link href="https://jongjongpill.github.io/Flexbox" rel="alternate" type="text/html" title="Flexbox" />
-      <published>2022-05-18T00:00:00+09:00</published>
-      <updated>2022-05-18T00:00:00+09:00</updated>
-      <id>https://jongjongpill.github.io/Flexbox</id>
-      <content type="html" xml:base="https://jongjongpill.github.io/Flexbox">&lt;h1 id=&quot;flexbox&quot;&gt;Flexbox&lt;/h1&gt;
-
-&lt;p&gt;&lt;img src=&quot;../../assets/images/&quot; alt=&quot;flexbox-1&quot; /&gt;&lt;/p&gt;</content>
+      <title type="html">가장 중요할수도있는 Function(2)</title>
+      <link href="https://jongjongpill.github.io/Function(2)" rel="alternate" type="text/html" title="가장 중요할수도있는 Function(2)" />
+      <published>2022-05-19T00:00:00+09:00</published>
+      <updated>2022-05-19T00:00:00+09:00</updated>
+      <id>https://jongjongpill.github.io/Function(2)</id>
+      <content type="html" xml:base="https://jongjongpill.github.io/Function(2)"></content>
 
       
       
@@ -199,11 +231,11 @@
       
 
       
-        <category term="css" />
+        <category term="javascript" />
       
 
       
-        <summary type="html">Flexbox</summary>
+        <summary type="html"></summary>
       
 
       
@@ -300,6 +332,42 @@ html의 link는 href로 불러온 경로에서 파일을 불러오는것 뿐 그
 
       
         <summary type="html">META DATA 우리는 HTML문서에서 “body”에 들어가는 내용은 우리가 보는 문서에 나타나는 것이며 그리고 “head”에 들어가는 내용은 우리 눈에는 보이지 않는 브라우저의 정보이다. 처음 html 문서를 시작할때 ! 를 입력하게 된다면 &amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html lang=&quot;en&quot;&amp;gt; &amp;lt;head&amp;gt; &amp;lt;meta charset=&quot;UTF-8&quot;&amp;gt; &amp;lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot;&amp;gt; &amp;lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&amp;gt; &amp;lt;title&amp;gt;Document&amp;lt;/title&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; &amp;lt;/body&amp;gt; &amp;lt;/html&amp;gt; 이렇게 html문서의 기본틀을 볼 수 있다. 이때 “head”에 들어가는 meta 혹은 title 과 같은 눈에 보이지 않는 정보들을 “META DATA”라고 부른다.</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Flexbox</title>
+      <link href="https://jongjongpill.github.io/Flexbox" rel="alternate" type="text/html" title="Flexbox" />
+      <published>2022-05-18T00:00:00+09:00</published>
+      <updated>2022-05-18T00:00:00+09:00</updated>
+      <id>https://jongjongpill.github.io/Flexbox</id>
+      <content type="html" xml:base="https://jongjongpill.github.io/Flexbox">&lt;h1 id=&quot;flexbox&quot;&gt;Flexbox&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&quot;../../assets/images/&quot; alt=&quot;flexbox-1&quot; /&gt;&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>JongPil</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="css" />
+      
+
+      
+        <summary type="html">Flexbox</summary>
       
 
       
