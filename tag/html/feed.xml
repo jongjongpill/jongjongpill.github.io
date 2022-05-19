@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="https://jongjongpill.github.io/tag/html/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://jongjongpill.github.io/" rel="alternate" type="text/html" />
-  <updated>2022-05-18T20:09:22+09:00</updated>
+  <updated>2022-05-19T17:30:39+09:00</updated>
   <id>https://jongjongpill.github.io/tag/html/feed.xml</id>
 
   
@@ -64,19 +64,42 @@
 &lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;title&amp;gt;&lt;/span&gt;Document&lt;span class=&quot;nt&quot;&gt;&amp;lt;/title&amp;gt;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;p&gt;이 title은 뜻 그대로 이 문서의 제목이다. 이 제목은 
-&lt;img src=&quot;/assets/images/html-metadata-1.jpg&quot; /&gt;
+&lt;img src=&quot;/assets/built/images/html-metadata-1.jpg&quot; alt=&quot;홈페이지 이름 캡쳐&quot; /&gt;
 위의 “Daum, Naver, GitHub”와 같이 제목으로 표시된다.&lt;br /&gt;
 이 title은 “head”태그 안에 딱 한번만 들어갈 수 있으며 문자열만 입력할 수 있다.&lt;br /&gt;
 만약 페이지를 즐겨찾기나 북마크를 해도 title에 작성된 제목으로 저장된다.&lt;/p&gt;
 
-&lt;hr /&gt;
-
 &lt;h2 id=&quot;meta&quot;&gt;meta&lt;/h2&gt;
 &lt;p&gt;meta태그는 빈요소로 내용을 가질 수 없음으로 속성에 정보를 나열해야한다.
 meta태그 안에 들어갈 수 있는 속성들을 살펴보자&lt;br /&gt;
--&lt;strong&gt;name&lt;/strong&gt; name은 content라는 특성과 함께 짝을 이뤄 사용해야하며 name은 이름, content는 값을 담당한다. &lt;a href=&quot;https://developer.mozilla.org/ko/docs/Web/HTML/Element/meta/name&quot;&gt;👉표준메타데이터 이름&lt;/a&gt; 앞의 링크에는 표준으로 name에 들어갈수 있는 이름을 설명하여 주지만 모두 사용해야만 하는 것은 아니다.&lt;/p&gt;
+&lt;strong&gt;name&lt;/strong&gt; - name은 content라는 특성과 함께 짝을 이뤄 사용해야하며 name은 이름, content는 값을 담당한다. &lt;a href=&quot;https://developer.mozilla.org/ko/docs/Web/HTML/Element/meta/name&quot;&gt;👉표준메타데이터 이름&lt;/a&gt; 앞의 링크에는 표준으로 name에 들어갈수 있는 이름을 설명하여 주지만 모두 사용해야만 하는 것은 아니다.&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;name = “&lt;strong&gt;veiwport&lt;/strong&gt;” : 모바일 뷰보트의 초기 사이즈에 대한 힌트&lt;/p&gt;
+&lt;/blockquote&gt;
 
-&lt;p&gt;&lt;strong&gt;charset&lt;/strong&gt; - 페이지의 문자 인코딩을 선언해준다. 이 특성은 무조건 &lt;em&gt;ASCII표현&lt;/em&gt; 이어야한다.&lt;br /&gt;ex) utf-8 : 한국어&lt;/p&gt;</content>
+&lt;p&gt;&lt;strong&gt;charset&lt;/strong&gt; - 페이지의 문자 인코딩을 선언해준다. 이 특성은 무조건 &lt;em&gt;ASCII표현&lt;/em&gt; 이어야하며 head의 첫번째 태그로 넣는것을 권장한다. ex) utf-8 : 한국어&lt;/p&gt;
+
+&lt;h2 id=&quot;link&quot;&gt;link&lt;/h2&gt;
+&lt;p&gt;href(경로) 속성과 rel(relationship{관계}) 속성과 함께쓰며 가장 많이 쓰이는 예시로&lt;/p&gt;
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;link&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href = &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;/main.css&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;rel = &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;stylesheet&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;를 볼 수 있다. &lt;strong&gt;rel&lt;/strong&gt;에는 stylesheet 외에도 “icon” 등 다양한 값들이 있다.,&lt;br /&gt;
+&lt;a href=&quot;https://developer.mozilla.org/ko/docs/Web/HTML/Element/link&quot;&gt;👉더 많은 속성 알아보기&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;mime-타입&quot;&gt;MIME 타입&lt;/h2&gt;
+&lt;p&gt;위에서 봤던 link에는 ‘rel’과 ‘href’ 말고도 &lt;strong&gt;type&lt;/strong&gt;이라는 속성이 존재한다.&lt;br /&gt;
+html의 link는 href로 불러온 경로에서 파일을 불러오는것 뿐 그 파일에 대한 정보를 알수는 없는데 이때 그 파일에 대한 설명을 type 속성으로 설명해준다고 생각하면된다.&lt;br /&gt;&lt;a href=&quot;https://developer.mozilla.org/ko/docs/Web/HTTP/Basics_of_HTTP/MIME_types&quot;&gt;👉 MIME TYPE 알아보기&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;style&quot;&gt;style&lt;/h2&gt;
+&lt;p&gt;이전에 link에서 자주쓰는 예시로 css파일을 불러오는 예시를 들었는데 그렇게 하지 않고 html head태그 안에 style을 작성할 수 있다. 이렇게도 적용할 수 있다고만 알고있자.&lt;/p&gt;
+
+&lt;h2 id=&quot;script&quot;&gt;script&lt;/h2&gt;
+&lt;p&gt;이 태그를 사용하여 아래처럼 외부에서 자바스크립트 파일을 불러올수있다.&lt;/p&gt;
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;script &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;src =&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;main.js&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;style 태그와 마찬가지로 html파일 내에서도 스크립트를 작성할 수 있는데 이것도 알고만 있자. &lt;br /&gt;
+또한 이 태그는 꼭 head태그 안에만 있어야 하는것은 아니다.
+보통 이 태그는 body의 마지막에 넣어주는데 그 이유는 html과 css가 모두 업로드 된 뒤에 스크립트를 적용시키기 위함이다.&lt;/p&gt;</content>
 
       
       
