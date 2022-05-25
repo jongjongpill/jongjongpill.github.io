@@ -8,6 +8,23 @@
     
       
       <item>
+        <title>대수롭지 않게 넘어갈 만한 문법과 표현식(2)</title>
+        
+          <description>&lt;h1 id=&quot;destructuring-구조-분해&quot;&gt;Destructuring (구조 분해)&lt;/h1&gt;
+&lt;p&gt;ES 2015에서 등장한 배열과 객체를 다룰 때 사용할 수 있는 문법으로
+이름처럼 배열이나 객체를 구조를 분해해준다.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Wed, 25 May 2022 00:00:00 +0900</pubDate>
+        <link>
+        https://jongjongpill.github.io/grammer(2)</link>
+        <guid isPermaLink="true">https://jongjongpill.github.io/grammer(2)</guid>
+      </item>
+      
+    
+      
+      <item>
         <title>대수롭지 않게 넘어갈 만한 문법과 표현식(1)</title>
         
           <description>&lt;h1 id=&quot;조건-연산자conditional-operator&quot;&gt;조건 연산자(Conditional operator)&lt;/h1&gt;
@@ -41,8 +58,8 @@ const passNum = 80;&lt;/p&gt;
         
         <pubDate>Mon, 23 May 2022 00:00:00 +0900</pubDate>
         <link>
-        https://jongjongpill.github.io/grammer(2)</link>
-        <guid isPermaLink="true">https://jongjongpill.github.io/grammer(2)</guid>
+        https://jongjongpill.github.io/grammer(1)</link>
+        <guid isPermaLink="true">https://jongjongpill.github.io/grammer(1)</guid>
       </item>
       
     
