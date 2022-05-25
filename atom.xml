@@ -8,6 +8,46 @@
     
       
       <item>
+        <title>대수롭지 않게 넘어갈 만한 문법과 표현식(1)</title>
+        
+          <description>&lt;h1 id=&quot;조건-연산자conditional-operator&quot;&gt;조건 연산자(Conditional operator)&lt;/h1&gt;
+&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;조건&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;){&lt;/span&gt;
+  &lt;span class=&quot;c1&quot;&gt;// true 일 때 동작&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;else&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;c1&quot;&gt;// false 일 때 동작&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;------------------------&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;switch&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;값&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;case&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;A&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;// 값이 A와 일치할 때 동작&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;break&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;case&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;B&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;// 값이 B와 일치할 때 동작&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;break&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;default&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;// 값과 일치하는 case가 없을때 동작&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;ES2015&lt;/strong&gt; 이전에 나온 조건을 다루는 방법이 위와 같이 if문과 switch문 두개뿐이였다. 
+하지만 그 이후에 새롭게 등장한 조건연산자를 활용한다면 간결하게 조건문을 다룰수있다.&lt;/p&gt;
+&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nx&quot;&gt;조건&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;?&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;truthy&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;할&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;때&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;동작&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;falsy&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;할&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;때&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;동작&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;위가 조건 연산자의 기본 형태인데 자바스크립트에서 유일한 항이 세개인 연산자로서 &lt;strong&gt;삼항 연산자(Ternary operator)&lt;/strong&gt; 라고 불린다.
+이 삼항 연산자가 얼마나 간결한지 살펴보자면
+```js
+const passNum = 80;&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Mon, 23 May 2022 00:00:00 +0900</pubDate>
+        <link>
+        https://jongjongpill.github.io/grammer(2)</link>
+        <guid isPermaLink="true">https://jongjongpill.github.io/grammer(2)</guid>
+      </item>
+      
+    
+      
+      <item>
         <title>쓸 때마다 까먹는 FORM</title>
         
           <description>
@@ -17,20 +57,6 @@
         <link>
         https://jongjongpill.github.io/form</link>
         <guid isPermaLink="true">https://jongjongpill.github.io/form</guid>
-      </item>
-      
-    
-      
-      <item>
-        <title>가장 중요할수도있는 Function(2)</title>
-        
-          <description>
-</description>
-        
-        <pubDate>Thu, 19 May 2022 00:00:00 +0900</pubDate>
-        <link>
-        https://jongjongpill.github.io/Function(2)</link>
-        <guid isPermaLink="true">https://jongjongpill.github.io/Function(2)</guid>
       </item>
       
     
